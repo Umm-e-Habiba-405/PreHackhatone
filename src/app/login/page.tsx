@@ -1,6 +1,7 @@
 
 import React from 'react';
 import Header1 from '../Components/Headers';
+import Image from 'next/image';
 
 const Login = () => {
   return (
@@ -8,7 +9,7 @@ const Login = () => {
       <Header1 />
       <div className='flex flex-col md:flex-row justify-center gap-20 mt-[100px] px-6 sm:px-12 md:px-52'>
         <div>
-          <img src="/dl.beatsnoop 1.png" alt="" />
+          <Image src={'/dl.beatsnoop 1.png'} alt='' width={805} height={781}/>
         </div>
         <div>
           <h1 className='mt-20 text-[40px] font-bold text-center md:text-left'>Login into Exclusive</h1>

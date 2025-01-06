@@ -4,6 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import TopHeader from '../Components/TopHeader';
 import Navbar from '../Components/Navbar';
+import Image from 'next/image';
 
 const Signup = () => {
   return (
@@ -11,7 +12,7 @@ const Signup = () => {
       <Navbar />
       <div className="flex justify-center gap-12 mt-[100px] px-4 sm:px-8 md:px-16">
         <div className="hidden md:block">
-          <img src="/dl.beatsnoop 1.png" alt="Illustration" />
+          <Image src="/dl.beatsnoop 1.png" alt='' width={805} height={781}/> 
         </div>
         <div className="flex flex-col items-center md:items-start">
           <h1 className="text-[40px] font-bold mt-10 md:mt-0 text-center md:text-left">Create an account</h1>
@@ -41,7 +42,7 @@ const Signup = () => {
           </div>
           <div className="flex justify-center items-center border-2 rounded-sm mt-10 py-3 px-3 w-[371px] md:w-[400px] lg:w-[500px] gap-5">
             <div>
-              <img src="/Icon-Google.png" alt="Google Icon" />
+              <Image src={'/Icon-Google.png'} alt='' width={24} height={24}/> 
             </div>
             <div>
               <button className="text-center">Sign Up with Google</button>
