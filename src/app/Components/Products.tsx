@@ -61,7 +61,7 @@ const Products = () => {
             key={index}
             className="cursor-pointer transform transition hover:scale-105 w-full max-w-[270px] mx-auto h-[350px]"
           >
-            <img src={product.src} alt={product.title} className="w-full" />
+            <Image src={product.src} alt={product.title} width="270" height="250" className="w-full" />
             <button className="bg-black w-full h-[41px] text-white flex items-center justify-center gap-2 mt-3">
               <Image src="/Cart1.png" alt="" width={24} height={24} />
               Add To Cart
