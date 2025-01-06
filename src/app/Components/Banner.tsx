@@ -26,6 +26,7 @@
 // export default Banner
 
 import React from 'react';
+import Image from 'next/image';
 
 const Banner = () => {
   return (
@@ -64,9 +65,9 @@ const Banner = () => {
 
         {/* Image Section */}
         <div className="flex justify-center items-center mt-6 lg:mt-0">
-          <img
+          <Image
             src="/Frame 694.png"
-            alt="Music Experience"
+            alt="Music Experience" width={600} height={420}
             className="w-full max-w-[400px] lg:max-w-[568px] lg:h-[330px] object-cover"
           />
         </div>

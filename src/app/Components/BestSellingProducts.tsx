@@ -70,9 +70,9 @@ const BestSellingProducts = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center mt-7 px-5">
         {/* Product 1 */}
         <div className="w-full sm:w-[270px] transform transition hover:scale-105">
-          <img
+          <Image
             src="/Cart (3).png"
-            alt="The north coat"
+            alt="The north coat" width={270} height={250}
             className="w-full sm:w-[270px] h-[250px] object-cover"
           />
           <button className="bg-black w-full sm:w-[270px] h-[41px] text-white gap-2 flex justify-center items-center">
@@ -88,9 +88,9 @@ const BestSellingProducts = () => {
 
         {/* Product 2 */}
         <div className="w-full sm:w-[270px] transform transition hover:scale-105">
-          <img
+          <Image
             src="/Cart (9).png"
-            alt="Jr. Zoom Soccer Cleats"
+            alt="Jr. Zoom Soccer Cleats" width={270} height={250}
             className="w-full sm:w-[270px] h-[250px] object-cover"
           />
           <button className="bg-black w-full sm:w-[270px] h-[41px] text-white gap-2 flex justify-center items-center">
@@ -106,9 +106,9 @@ const BestSellingProducts = () => {
 
         {/* Product 3 */}
         <div className="w-full sm:w-[270px] transform transition hover:scale-105">
-          <img
+          <Image
             src="/Cart (2).png"
-            alt="RGB liquid CPU Cooler"
+            alt="RGB liquid CPU Cooler" width={270} height={250}
             className="w-full sm:w-[270px] h-[250px] object-cover"
           />
           <button className="bg-black w-full sm:w-[270px] h-[41px] text-white gap-2 flex justify-center items-center">
@@ -124,9 +124,9 @@ const BestSellingProducts = () => {
 
         {/* Product 4 */}
         <div className="w-full sm:w-[270px] transform transition hover:scale-105">
-          <img
+          <Image
             src="/Cart (1).png"
-            alt="Small BookSelf"
+            alt="Small BookSelf" width={270} height={250}
             className="w-full sm:w-[270px] h-[250px] object-cover"
           />
           <button className="bg-black w-full sm:w-[270px] h-[41px] text-white gap-2 flex justify-center items-center">

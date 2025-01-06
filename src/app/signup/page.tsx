@@ -2,7 +2,6 @@
 
 import React from 'react';
 import Link from 'next/link';
-import TopHeader from '../Components/TopHeader';
 import Navbar from '../Components/Navbar';
 import Image from 'next/image';
 
